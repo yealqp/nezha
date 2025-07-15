@@ -24,8 +24,6 @@ jobs:
     - name: Install Swag
       run: go install github.com/swaggo/swag/cmd/swag@latest
 
-    - name: Update repo
-      run: apt update
     - name: Install Protoc
       run: sudo apt install -y protobuf-compiler
 
